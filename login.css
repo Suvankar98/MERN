@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.btn-login {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-login:hover {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-login a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.forgot-password,
+.signup {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a,
+.signup a {
+    color: #0072ff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover,
+.signup a:hover {
+    text-decoration: underline;
+}
